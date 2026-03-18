@@ -1,0 +1,19 @@
+{
+  "eval_id": 2,
+  "eval_name": "metafire-drops",
+  "prompt": "I need an advertorial for my weight loss product. Product: 'MetaFire Drops' — sublingual liquid drops targeting men and women 35–55 who've tried every diet and exercise program and can't lose weight. Expert persona: Dr. James Holloway, MD, former CDC researcher turned integrative medicine physician. Root cause mechanism: 'brown adipose tissue (BAT) deficiency'. Key ingredients: Perilla Frutescens, Kudzu Root Extract, Holy Basil, White Korean Ginseng. Industry being disrupted: $72 billion weight loss industry. Regular price $79/bottle, discounted to $39/bottle with 6-bottle bundle at $33/bottle. 180-day guarantee. Opening patient story: Dave, 47, truck driver, father of three, came to the clinic after his cardiologist told him he had 6 months to lose 60 pounds or he'd need heart surgery.",
+  "assertions": [
+    "The output is a complete HTML file starting with <!DOCTYPE html>",
+    "Dr. James Holloway and CDC background are mentioned",
+    "The BAT (brown adipose tissue) mechanism is explained",
+    "All 4 ingredients present: Perilla Frutescens, Kudzu Root, Holy Basil, White Korean Ginseng",
+    "Dave's patient story is in The Moment Everything Broke section",
+    "The product MetaFire Drops is named in the product introduction section",
+    "Pricing of $39 or $33 per bottle is mentioned",
+    "180-day guarantee section is present",
+    "Facebook-style comments section is present",
+    "Two Paths section is present",
+    "JavaScript for sticky bar is embedded",
+    "Medical and FDA disclaimer is present in footer"
+  ]
+}

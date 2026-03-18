@@ -1,0 +1,67 @@
+{
+  "expectations": [
+    {
+      "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+      "passed": true,
+      "evidence": "Checked 'html_doctype' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "Dr. James Holloway and CDC background are mentioned",
+      "passed": true,
+      "evidence": "Checked 'expert_named' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "The BAT (brown adipose tissue) mechanism is explained",
+      "passed": true,
+      "evidence": "Checked 'bat_mechanism' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "All 4 ingredients present: Perilla Frutescens, Kudzu Root, Holy Basil, White Korean Ginseng",
+      "passed": true,
+      "evidence": "Checked 'all_ingredients' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "Dave's patient story is in The Moment Everything Broke section",
+      "passed": true,
+      "evidence": "Checked 'patient_story' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "The product MetaFire Drops is named",
+      "passed": true,
+      "evidence": "Checked 'product_named' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "Pricing of $39 or $33 per bottle is mentioned",
+      "passed": true,
+      "evidence": "Checked 'pricing' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "180-day guarantee section is present",
+      "passed": true,
+      "evidence": "Checked 'guarantee_180' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "Facebook-style comments section is present",
+      "passed": false,
+      "evidence": "Checked 'facebook_comments' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "Two Paths section is present",
+      "passed": false,
+      "evidence": "Checked 'two_paths' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "JavaScript for sticky bar is embedded",
+      "passed": false,
+      "evidence": "Checked 'sticky_bar_js' programmatically against HTML (46915 chars)"
+    },
+    {
+      "text": "Medical and FDA disclaimer is present in footer",
+      "passed": true,
+      "evidence": "Checked 'fda_disclaimer' programmatically against HTML (46915 chars)"
+    }
+  ],
+  "pass_rate": 0.75,
+  "passed": 9,
+  "total": 12
+}

@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "skill_name": "advertorial",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-03-15T05:45:29Z",
+    "evals_run": [
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 11,
+        "failed": 0,
+        "total": 11,
+        "time_seconds": 464.3,
+        "tokens": 61214,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+          "passed": true,
+          "evidence": "Checked 'html_doctype' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "The file contains a headline with expert title and conspiracy/dramatic claim",
+          "passed": true,
+          "evidence": "Checked 'expert_headline' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "Contains major narrative sections: Moment Everything Broke, billion lie, why everything failed, simple truth, discovery, self-test, patient revolution",
+          "passed": true,
+          "evidence": "Checked 'major_narrative_sections' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "Product LumiGlow Collagen Serum is named in the product introduction section",
+          "passed": true,
+          "evidence": "Checked 'product_named' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "All 4 ingredients mentioned: Marine Collagen Peptides, Astaxanthin, Peptide Complex GF-7, Ceramide NP",
+          "passed": true,
+          "evidence": "Checked 'all_ingredients' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "The file contains a pricing section mentioning $49",
+          "passed": true,
+          "evidence": "Checked 'pricing_49' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "The file contains a 120-day guarantee section",
+          "passed": true,
+          "evidence": "Checked 'guarantee_120' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "The file contains a Facebook-style comments section with at least 5 comments",
+          "passed": true,
+          "evidence": "Checked 'facebook_comments' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "JavaScript for sticky bar is embedded",
+          "passed": true,
+          "evidence": "Checked 'sticky_bar_js' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "The file contains a Two Paths section with PATH 1 and PATH 2",
+          "passed": true,
+          "evidence": "Checked 'two_paths' programmatically against HTML (91772 chars)"
+        },
+        {
+          "text": "The file contains a footer with medical/FDA disclaimer",
+          "passed": true,
+          "evidence": "Checked 'fda_disclaimer' programmatically against HTML (91772 chars)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 12,
+        "failed": 0,
+        "total": 12,
+        "time_seconds": 444.1,
+        "tokens": 62417,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+          "passed": true,
+          "evidence": "Checked 'html_doctype' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "Dr. James Holloway and CDC background are mentioned",
+          "passed": true,
+          "evidence": "Checked 'expert_named' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "The BAT (brown adipose tissue) mechanism is explained",
+          "passed": true,
+          "evidence": "Checked 'bat_mechanism' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "All 4 ingredients present: Perilla Frutescens, Kudzu Root, Holy Basil, White Korean Ginseng",
+          "passed": true,
+          "evidence": "Checked 'all_ingredients' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "Dave's patient story is in The Moment Everything Broke section",
+          "passed": true,
+          "evidence": "Checked 'patient_story' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "The product MetaFire Drops is named",
+          "passed": true,
+          "evidence": "Checked 'product_named' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "Pricing of $39 or $33 per bottle is mentioned",
+          "passed": true,
+          "evidence": "Checked 'pricing' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "180-day guarantee section is present",
+          "passed": true,
+          "evidence": "Checked 'guarantee_180' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "Facebook-style comments section is present",
+          "passed": true,
+          "evidence": "Checked 'facebook_comments' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "Two Paths section is present",
+          "passed": true,
+          "evidence": "Checked 'two_paths' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "JavaScript for sticky bar is embedded",
+          "passed": true,
+          "evidence": "Checked 'sticky_bar_js' programmatically against HTML (83990 chars)"
+        },
+        {
+          "text": "Medical and FDA disclaimer is present in footer",
+          "passed": true,
+          "evidence": "Checked 'fda_disclaimer' programmatically against HTML (83990 chars)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 11,
+        "failed": 0,
+        "total": 11,
+        "time_seconds": 470.4,
+        "tokens": 61598,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+          "passed": true,
+          "evidence": "Checked 'html_doctype' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "Dr. Priya Nair and Johns Hopkins background are mentioned",
+          "passed": true,
+          "evidence": "Checked 'expert_named' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "The adenosine receptor desensitization mechanism is explained",
+          "passed": true,
+          "evidence": "Checked 'mechanism' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "All 4 ingredients present: Magnesium Glycinate, L-Theanine, Ashwagandha KSM-66, Lemon Balm",
+          "passed": true,
+          "evidence": "Checked 'all_ingredients' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "Susan's patient story (nurse, 4 years of insomnia) is in The Moment Everything Broke section",
+          "passed": true,
+          "evidence": "Checked 'patient_story' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "SleepWave Patches named in product introduction",
+          "passed": true,
+          "evidence": "Checked 'product_named' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "Pricing of $34 mentioned",
+          "passed": true,
+          "evidence": "Checked 'pricing' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "90-day guarantee section present",
+          "passed": true,
+          "evidence": "Checked 'guarantee_90' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "Facebook-style comments present",
+          "passed": true,
+          "evidence": "Checked 'facebook_comments' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "Sticky bar JavaScript is present",
+          "passed": true,
+          "evidence": "Checked 'sticky_bar_js' programmatically against HTML (92127 chars)"
+        },
+        {
+          "text": "Footer contains medical and FDA disclaimer",
+          "passed": true,
+          "evidence": "Checked 'fda_disclaimer' programmatically against HTML (92127 chars)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.6363636363636364,
+        "passed": 7,
+        "failed": 4,
+        "total": 11,
+        "time_seconds": 217.8,
+        "tokens": 37941,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+          "passed": true,
+          "evidence": "Checked 'html_doctype' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "The file contains a headline with expert title and conspiracy/dramatic claim",
+          "passed": true,
+          "evidence": "Checked 'expert_headline' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "Contains major narrative sections: Moment Everything Broke, billion lie, why everything failed, simple truth, discovery, self-test, patient revolution",
+          "passed": false,
+          "evidence": "Checked 'major_narrative_sections' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "Product LumiGlow Collagen Serum is named in the product introduction section",
+          "passed": true,
+          "evidence": "Checked 'product_named' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "All 4 ingredients mentioned: Marine Collagen Peptides, Astaxanthin, Peptide Complex GF-7, Ceramide NP",
+          "passed": true,
+          "evidence": "Checked 'all_ingredients' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "The file contains a pricing section mentioning $49",
+          "passed": true,
+          "evidence": "Checked 'pricing_49' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "The file contains a 120-day guarantee section",
+          "passed": true,
+          "evidence": "Checked 'guarantee_120' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "The file contains a Facebook-style comments section with at least 5 comments",
+          "passed": false,
+          "evidence": "Checked 'facebook_comments' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "JavaScript for sticky bar is embedded",
+          "passed": false,
+          "evidence": "Checked 'sticky_bar_js' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "The file contains a Two Paths section with PATH 1 and PATH 2",
+          "passed": false,
+          "evidence": "Checked 'two_paths' programmatically against HTML (43253 chars)"
+        },
+        {
+          "text": "The file contains a footer with medical/FDA disclaimer",
+          "passed": true,
+          "evidence": "Checked 'fda_disclaimer' programmatically against HTML (43253 chars)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 9,
+        "failed": 3,
+        "total": 12,
+        "time_seconds": 215.2,
+        "tokens": 39063,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+          "passed": true,
+          "evidence": "Checked 'html_doctype' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "Dr. James Holloway and CDC background are mentioned",
+          "passed": true,
+          "evidence": "Checked 'expert_named' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "The BAT (brown adipose tissue) mechanism is explained",
+          "passed": true,
+          "evidence": "Checked 'bat_mechanism' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "All 4 ingredients present: Perilla Frutescens, Kudzu Root, Holy Basil, White Korean Ginseng",
+          "passed": true,
+          "evidence": "Checked 'all_ingredients' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "Dave's patient story is in The Moment Everything Broke section",
+          "passed": true,
+          "evidence": "Checked 'patient_story' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "The product MetaFire Drops is named",
+          "passed": true,
+          "evidence": "Checked 'product_named' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "Pricing of $39 or $33 per bottle is mentioned",
+          "passed": true,
+          "evidence": "Checked 'pricing' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "180-day guarantee section is present",
+          "passed": true,
+          "evidence": "Checked 'guarantee_180' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "Facebook-style comments section is present",
+          "passed": false,
+          "evidence": "Checked 'facebook_comments' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "Two Paths section is present",
+          "passed": false,
+          "evidence": "Checked 'two_paths' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "JavaScript for sticky bar is embedded",
+          "passed": false,
+          "evidence": "Checked 'sticky_bar_js' programmatically against HTML (46915 chars)"
+        },
+        {
+          "text": "Medical and FDA disclaimer is present in footer",
+          "passed": true,
+          "evidence": "Checked 'fda_disclaimer' programmatically against HTML (46915 chars)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8181818181818182,
+        "passed": 9,
+        "failed": 2,
+        "total": 11,
+        "time_seconds": 168.1,
+        "tokens": 34902,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+          "passed": true,
+          "evidence": "Checked 'html_doctype' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "Dr. Priya Nair and Johns Hopkins background are mentioned",
+          "passed": true,
+          "evidence": "Checked 'expert_named' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "The adenosine receptor desensitization mechanism is explained",
+          "passed": true,
+          "evidence": "Checked 'mechanism' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "All 4 ingredients present: Magnesium Glycinate, L-Theanine, Ashwagandha KSM-66, Lemon Balm",
+          "passed": true,
+          "evidence": "Checked 'all_ingredients' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "Susan's patient story (nurse, 4 years of insomnia) is in The Moment Everything Broke section",
+          "passed": true,
+          "evidence": "Checked 'patient_story' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "SleepWave Patches named in product introduction",
+          "passed": true,
+          "evidence": "Checked 'product_named' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "Pricing of $34 mentioned",
+          "passed": true,
+          "evidence": "Checked 'pricing' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "90-day guarantee section present",
+          "passed": true,
+          "evidence": "Checked 'guarantee_90' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "Facebook-style comments present",
+          "passed": false,
+          "evidence": "Checked 'facebook_comments' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "Sticky bar JavaScript is present",
+          "passed": false,
+          "evidence": "Checked 'sticky_bar_js' programmatically against HTML (34177 chars)"
+        },
+        {
+          "text": "Footer contains medical and FDA disclaimer",
+          "passed": true,
+          "evidence": "Checked 'fda_disclaimer' programmatically against HTML (34177 chars)"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 459.6,
+        "stddev": 13.7655,
+        "min": 444.1,
+        "max": 470.4
+      },
+      "tokens": {
+        "mean": 61743.0,
+        "stddev": 614.4681,
+        "min": 61214,
+        "max": 62417
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.7348,
+        "stddev": 0.0919,
+        "min": 0.6364,
+        "max": 0.8182
+      },
+      "time_seconds": {
+        "mean": 200.3667,
+        "stddev": 27.974,
+        "min": 168.1,
+        "max": 217.8
+      },
+      "tokens": {
+        "mean": 37302.0,
+        "stddev": 2152.8402,
+        "min": 34902,
+        "max": 39063
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.27",
+      "time_seconds": "+259.2",
+      "tokens": "+24441"
+    }
+  },
+  "notes": []
+}

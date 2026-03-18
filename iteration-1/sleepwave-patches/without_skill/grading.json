@@ -1,0 +1,62 @@
+{
+  "expectations": [
+    {
+      "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+      "passed": true,
+      "evidence": "Checked 'html_doctype' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "Dr. Priya Nair and Johns Hopkins background are mentioned",
+      "passed": true,
+      "evidence": "Checked 'expert_named' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "The adenosine receptor desensitization mechanism is explained",
+      "passed": true,
+      "evidence": "Checked 'mechanism' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "All 4 ingredients present: Magnesium Glycinate, L-Theanine, Ashwagandha KSM-66, Lemon Balm",
+      "passed": true,
+      "evidence": "Checked 'all_ingredients' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "Susan's patient story (nurse, 4 years of insomnia) is in The Moment Everything Broke section",
+      "passed": true,
+      "evidence": "Checked 'patient_story' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "SleepWave Patches named in product introduction",
+      "passed": true,
+      "evidence": "Checked 'product_named' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "Pricing of $34 mentioned",
+      "passed": true,
+      "evidence": "Checked 'pricing' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "90-day guarantee section present",
+      "passed": true,
+      "evidence": "Checked 'guarantee_90' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "Facebook-style comments present",
+      "passed": false,
+      "evidence": "Checked 'facebook_comments' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "Sticky bar JavaScript is present",
+      "passed": false,
+      "evidence": "Checked 'sticky_bar_js' programmatically against HTML (34177 chars)"
+    },
+    {
+      "text": "Footer contains medical and FDA disclaimer",
+      "passed": true,
+      "evidence": "Checked 'fda_disclaimer' programmatically against HTML (34177 chars)"
+    }
+  ],
+  "pass_rate": 0.8181818181818182,
+  "passed": 9,
+  "total": 11
+}

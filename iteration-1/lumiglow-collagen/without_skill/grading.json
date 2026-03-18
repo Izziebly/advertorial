@@ -1,0 +1,62 @@
+{
+  "expectations": [
+    {
+      "text": "The output is a complete HTML file starting with <!DOCTYPE html>",
+      "passed": true,
+      "evidence": "Checked 'html_doctype' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "The file contains a headline with expert title and conspiracy/dramatic claim",
+      "passed": true,
+      "evidence": "Checked 'expert_headline' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "Contains major narrative sections: Moment Everything Broke, billion lie, why everything failed, simple truth, discovery, self-test, patient revolution",
+      "passed": false,
+      "evidence": "Checked 'major_narrative_sections' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "Product LumiGlow Collagen Serum is named in the product introduction section",
+      "passed": true,
+      "evidence": "Checked 'product_named' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "All 4 ingredients mentioned: Marine Collagen Peptides, Astaxanthin, Peptide Complex GF-7, Ceramide NP",
+      "passed": true,
+      "evidence": "Checked 'all_ingredients' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "The file contains a pricing section mentioning $49",
+      "passed": true,
+      "evidence": "Checked 'pricing_49' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "The file contains a 120-day guarantee section",
+      "passed": true,
+      "evidence": "Checked 'guarantee_120' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "The file contains a Facebook-style comments section with at least 5 comments",
+      "passed": false,
+      "evidence": "Checked 'facebook_comments' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "JavaScript for sticky bar is embedded",
+      "passed": false,
+      "evidence": "Checked 'sticky_bar_js' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "The file contains a Two Paths section with PATH 1 and PATH 2",
+      "passed": false,
+      "evidence": "Checked 'two_paths' programmatically against HTML (43253 chars)"
+    },
+    {
+      "text": "The file contains a footer with medical/FDA disclaimer",
+      "passed": true,
+      "evidence": "Checked 'fda_disclaimer' programmatically against HTML (43253 chars)"
+    }
+  ],
+  "pass_rate": 0.6363636363636364,
+  "passed": 7,
+  "total": 11
+}

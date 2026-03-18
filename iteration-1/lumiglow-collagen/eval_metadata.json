@@ -1,0 +1,18 @@
+{
+  "eval_id": 1,
+  "eval_name": "lumiglow-collagen",
+  "prompt": "Generate an advertorial for a product called 'LumiGlow Collagen Serum' — it's a topical face serum targeting women 45–65 who struggle with sagging skin and wrinkles. The expert is Dr. Elena Vasquez, a board-certified dermatologist with 18 years of experience. The root cause mechanism is 'collagen cross-linking breakdown accelerated by cortisol'. Key ingredients: Marine Collagen Peptides (stimulates fibroblast activity), Astaxanthin (10x stronger than Vitamin C for oxidative stress), Peptide Complex GF-7 (signals collagen gene expression), Ceramide NP (restores lipid barrier). The industry being disrupted is the $89 billion anti-aging skincare industry. Regular price $94/bottle, discounted to $49/bottle. 120-day guarantee. Opening patient story: Karen, 58, retired school principal, 32 years married, came in devastated because her husband said she looked 'tired all the time'.",
+  "assertions": [
+    "The output is a complete HTML file starting with <!DOCTYPE html>",
+    "The file contains a headline with expert title and conspiracy/dramatic claim",
+    "The file contains all major narrative sections: The Moment Everything Broke, billion lie, why everything failed, simple truth, discovery, self-test, patient revolution",
+    "The product LumiGlow Collagen Serum is named in the product introduction section",
+    "All 4 ingredients are mentioned: Marine Collagen Peptides, Astaxanthin, Peptide Complex GF-7, Ceramide NP",
+    "The file contains a pricing section mentioning $49",
+    "The file contains a 120-day guarantee section",
+    "The file contains a Facebook-style comments section with at least 5 comments",
+    "JavaScript for sticky bar is embedded",
+    "The file contains a Two Paths section with PATH 1 and PATH 2",
+    "The file contains a footer with medical/FDA disclaimer"
+  ]
+}

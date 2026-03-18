@@ -1,0 +1,18 @@
+{
+  "eval_id": 3,
+  "eval_name": "sleepwave-patches",
+  "prompt": "Create an advertorial for 'SleepWave Patches' — transdermal sleep patches for adults 40+ struggling with insomnia. Expert: Dr. Priya Nair, PhD in neuroscience, former sleep lab director at Johns Hopkins. Root cause: 'adenosine receptor desensitization'. Ingredients: Magnesium Glycinate, L-Theanine, Ashwagandha KSM-66, Lemon Balm 10:1 extract. Disrupting: $28 billion sleep aid industry. Regular price $67/patch pack (30 day supply), discounted to $34 with 3-month bundle. 90-day guarantee. Opening patient story: Susan, 61, pediatric nurse, had been awake until 3am every night for 4 years, functioning on 3-4 hours of sleep.",
+  "assertions": [
+    "The output is a complete HTML file starting with <!DOCTYPE html>",
+    "Dr. Priya Nair and Johns Hopkins background are mentioned",
+    "The adenosine receptor desensitization mechanism is explained",
+    "All 4 ingredients present: Magnesium Glycinate, L-Theanine, Ashwagandha KSM-66, Lemon Balm",
+    "Susan's patient story (nurse, 4 years of insomnia) is in The Moment Everything Broke section",
+    "SleepWave Patches named in product introduction",
+    "Pricing of $34 mentioned",
+    "90-day guarantee section present",
+    "Facebook-style comments present",
+    "Sticky bar JavaScript is present",
+    "Footer contains medical and FDA disclaimer"
+  ]
+}
